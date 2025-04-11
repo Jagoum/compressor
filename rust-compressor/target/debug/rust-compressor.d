@@ -1,0 +1,1 @@
+/home/jagoum/Projects/Compressor/rust-compressor/target/debug/rust-compressor: /home/jagoum/Projects/Compressor/rust-compressor/src/lz.rs /home/jagoum/Projects/Compressor/rust-compressor/src/main.rs /home/jagoum/Projects/Compressor/rust-compressor/src/rle.rs
