@@ -14,12 +14,13 @@ pub fn compress(data: &[u8]) -> Vec<u8> {
 
         // Try to find a match
         let mut best_match_len = 0;
-        let mut best_match_offset = 0;
+        let mut best_match_offset = 0; // the position in the search buffer
 
         for offset in 1..=window.len() {
             let mut match_len = 0;
             while i + match_len < data.len()
                 && match_len < 255
+                && window.len() - offset + match_len < window.len()
                 && window[window.len() - offset + match_len] == data[i + match_len]
             {
                 match_len += 1;
@@ -44,7 +45,7 @@ pub fn compress(data: &[u8]) -> Vec<u8> {
             i += 1;
         }
     }
-
+    println!("{:?}", result);
     result
 }
 

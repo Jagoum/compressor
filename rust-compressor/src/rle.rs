@@ -42,7 +42,7 @@ pub fn decompress(data: &[u8]) -> Vec<u8> {
         result.extend(std::iter::repeat(byte).take(count));
         i += 2;
     }
-
+println!("{:?}", result);
     result
 }
 

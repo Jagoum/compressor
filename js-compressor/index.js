@@ -2,7 +2,7 @@
 
 const { program } = require('commander');
 const fs = require('fs');
-const rle = require('./rle');
+const rle = require('./rle'); // importing the rle and the lz files use the functions in it
 const lz = require('./lz');
 
 program

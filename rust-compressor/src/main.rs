@@ -1,10 +1,10 @@
 use clap::Parser;
 use std::fs;
-use std::path::Path;
-
 mod lz;
 mod rle;
 
+/// This struct is used to take command line args and parse them
+/// It uses clap crate to generate user friendly help information
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
