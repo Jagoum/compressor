@@ -17,10 +17,10 @@ A command-line tool for file compression using Run-Length Encoding (RLE) and LZ7
 
 ```bash
 # Pull the Rust implementation
-docker pull ghcr.io/your-org-name/rust-compressor:latest
+docker pull ghcr.io/jagoum/rust-compressor:latest
 
 # Pull the JavaScript implementation
-docker pull ghcr.io/your-org-name/js-compressor:latest
+docker pull ghcr.io/jagoum/js-compressor:latest
 ```
 
 ### Local Installation
