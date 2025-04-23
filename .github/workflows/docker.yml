@@ -8,8 +8,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  RUST_IMAGE_NAME: ${{ github.repository }}/rust-compressor
-  JS_IMAGE_NAME: ${{ github.repository }}/js-compressor
+  RUST_IMAGE_NAME: jagoum/compressor/rust-compressor:latest
+  JS_IMAGE_NAME: jagoum/compressor/rust-compressor:latest
 
 jobs:
   build-and-push:
