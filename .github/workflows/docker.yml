@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: ghcr.io
   RUST_IMAGE_NAME: jagoum/compressor/rust-compressor
-  JS_IMAGE_NAME: jagoum/compressor/rust-compressor
+  JS_IMAGE_NAME: jagoum/compressor/js-compressor
 
 jobs:
   build-and-push:
