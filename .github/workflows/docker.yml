@@ -8,8 +8,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  RUST_IMAGE_NAME: jagoum/compressor/rust-compressor:latest
-  JS_IMAGE_NAME: jagoum/compressor/rust-compressor:latest
+  RUST_IMAGE_NAME: jagoum/compressor/rust-compressor
+  JS_IMAGE_NAME: jagoum/compressor/rust-compressor
 
 jobs:
   build-and-push:
